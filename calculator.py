@@ -1,4 +1,6 @@
 import math
+from flask import Flask, jsonify, render_template, request
+app = Flask(__name__)
 
 class Calculator:
     def add(self, a, b):
