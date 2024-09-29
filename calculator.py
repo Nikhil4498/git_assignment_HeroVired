@@ -13,7 +13,8 @@ class Calculator:
     def divide(a, b):
        if b == 0:
            return "Error: Division by zero is not allowed."
-        return a / b
+        
+       return a / b
 
     def square_root(self, x):
         return math.sqrt(x)
