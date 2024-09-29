@@ -2,6 +2,10 @@ import math
 from flask import Flask, jsonify, render_template, request
 app = Flask(__name__)
 
+@app.route('/home')
+def home():
+  return 'Hello World'
+
 class Calculator:
     def add(self, a, b):
         return a + b
